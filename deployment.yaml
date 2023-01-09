@@ -1,0 +1,21 @@
+﻿kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: mailgenclient
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: mailgenclient
+  template:
+    metadata:
+      labels:
+        app: mailgenclient
+    spec:
+      containers:
+        - name: mailgenclient
+          image: viktorrumenov198/mailgen:test
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 80
+      restartPolicy: Always

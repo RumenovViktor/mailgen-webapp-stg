@@ -1,0 +1,7 @@
+{
+    "domain": "dev-1qpu3j0j.eu.auth0.com",
+    "clientId": "7jANzWya69HlYiv1cBdw2w3Q3bonafCW",
+    "audience": "http://localhost:44332",
+    "scope":"read:current_user update:current_user_metadata write:management profile email"
+    
+}

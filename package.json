@@ -1,0 +1,81 @@
+{
+  "name": "email-marketing-project",
+  "homepage": "http://app.mailgen.org/",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@auth0/auth0-react": "^1.6.0",
+    "@date-io/date-fns": "^1.3.13",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@fontsource/roboto": "^4.4.5",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/data-grid": "^4.0.0-alpha.31",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/pickers": "^3.3.10",
+    "@mui/icons-material": "^5.0.5",
+    "@mui/lab": "^5.0.0-alpha.59",
+    "@mui/material": "^5.0.3",
+    "@mui/styles": "^5.1.0",
+    "@mui/x-data-grid": "^4.0.2",
+    "@reduxjs/toolkit": "^1.8.3",
+    "@stripe/react-stripe-js": "^1.7.0",
+    "@stripe/stripe-js": "^1.22.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "antd": "^4.22.0",
+    "auth0-js": "^9.16.2",
+    "csv-parser": "^3.0.0",
+    "date-fns": "^2.22.1",
+    "draft-js": "^0.11.7",
+    "draftjs-to-html": "^0.9.1",
+    "export-to-csv": "^0.2.1",
+    "gh-pages": "^4.0.0",
+    "grapesjs": "^0.19.5",
+    "grapesjs-preset-newsletter": "^0.2.21",
+    "grapesjs-react": "^4.0.1",
+    "html-to-draftjs": "^1.5.0",
+    "html2json": "^1.0.2",
+    "js-guid": "^1.0.0",
+    "moment": "^2.29.1",
+    "query-string": "^7.0.1",
+    "react": "^17.0.2",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-dom": "^17.0.2",
+    "react-draft-wysiwyg": "^1.14.7",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "redux": "^4.2.0",
+    "styled-components": "^5.3.5",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build --mode production",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
